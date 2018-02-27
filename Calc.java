@@ -5,15 +5,11 @@
 
 public class Calc
 {
-	public static void main (String[] args) {
-		System.out.println(add(1,2));
-		System.out.println(sub(2,1));
+	public static void main(String[] args) {
+		System.out.println("It worked");
 	}
    static public int add (int a, int b)
    {
       return a + b;
-   }
-   static public int sub(int a, int b) {
-	   return a-b;
    }
 }

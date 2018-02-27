@@ -4,12 +4,14 @@ import org.junit.jupiter.api.Test;
 
 class CalcTest {
 
-
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
 	
 	@Test
-	void addSub(){
-		Calc c = new Calc();
-		assertTrue(5 == c.sub(2,3));
+	void addTest(){
+		assertTrue(5 == add(2,3));
 	}
 
 }
